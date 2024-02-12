@@ -5,9 +5,9 @@ function NavBar() {
   
   return <nav>
     
-      <a href={links.home} key={links.home}>home</a>
-      <a href={links.about} key={links.about}>about</a>
-      <a href={links.projects} key={links.projects}>projects</a>
+      <a href="#home" key={links.home}>home</a>
+      <a href="#about" key={links.about}>about</a>
+      <a href="#projects" key={links.projects}>projects</a>
 
       
   </nav>;
